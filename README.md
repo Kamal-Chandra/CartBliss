@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # cart_bliss
 
 A new Flutter project.
@@ -14,3 +15,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# CartBliss
+E-Commerce application using Flutter
+>>>>>>> 6f3c81cb6020b8f7a222635add62520c9bc6e1a0
