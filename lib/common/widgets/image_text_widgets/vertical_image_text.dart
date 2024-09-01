@@ -5,13 +5,13 @@ import 'package:cart_bliss/utils/helpers/helper_functions.dart';
 
 class VerticalImageText extends StatelessWidget {
   const VerticalImageText({
-    Key? key,
+    super.key,
     required this.image,
     required this.title,
     this.textColor = Colors.white,
     this.backgroundColor = Colors.white,
     this.onTap,
-  }) : super(key: key);
+  });
 
   final String image, title;
   final Color textColor;

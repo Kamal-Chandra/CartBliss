@@ -9,7 +9,7 @@ import 'package:cart_bliss/utils/helpers/helper_functions.dart';
 import 'package:cart_bliss/features/authentication/screens/login/login.dart';
 
 class VerifyEmailScreen extends StatelessWidget {
-  const VerifyEmailScreen({Key? key}) : super(key: key);
+  const VerifyEmailScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -5,9 +5,9 @@ import 'package:cart_bliss/common/widgets/custom_shapes/curved_edges/curved_edge
 
 class PrimaryHeaderContainer extends StatelessWidget {
   const PrimaryHeaderContainer({
-    Key? key,
+    super.key,
     required this.child,
-  }) : super(key: key);
+  });
 
   final Widget child;
 

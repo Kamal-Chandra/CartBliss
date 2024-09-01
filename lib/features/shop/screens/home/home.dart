@@ -13,7 +13,7 @@ import 'package:cart_bliss/common/widgets/products/product_cards/product_card_ve
 import 'package:cart_bliss/common/widgets/custom_shapes/containers/primary_header_container.dart';
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+  const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

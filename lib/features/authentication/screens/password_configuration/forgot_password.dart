@@ -6,7 +6,7 @@ import 'package:cart_bliss/utils/constants/texts.dart';
 import 'package:cart_bliss/utils/constants/sizes.dart';
 
 class ForgotPassword extends StatelessWidget {
-  const ForgotPassword({Key? key}) : super(key: key);
+  const ForgotPassword({super.key});
 
   @override
   Widget build(BuildContext context) {

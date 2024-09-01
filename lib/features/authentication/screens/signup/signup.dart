@@ -6,7 +6,7 @@ import 'package:cart_bliss/common/widgets/login_signup/social_buttons.dart';
 import 'package:cart_bliss/features/authentication/screens/signup/widgets/signup_form.dart';
 
 class SignUpScreen extends StatelessWidget {
-  const SignUpScreen({Key? key}) : super(key: key);
+  const SignUpScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

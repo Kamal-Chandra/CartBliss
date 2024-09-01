@@ -14,7 +14,7 @@ class RoundedContainer extends StatelessWidget {
   final EdgeInsetsGeometry? margin;
 
   const RoundedContainer({
-    Key? key,
+    super.key,
     this.child,
     this.width,
     this.height,
@@ -24,7 +24,7 @@ class RoundedContainer extends StatelessWidget {
     this.radius = TSizes.cardRadiusLg,
     this.backgroundColor = TColors.white,
     this.borderColor = TColors.borderPrimary,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

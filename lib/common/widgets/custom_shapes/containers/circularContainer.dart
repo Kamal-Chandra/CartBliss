@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class CircularContainer extends StatelessWidget {
   const CircularContainer({
-    Key? key,
+    super.key,
     this.child,
     this.width = 400,
     this.height = 400,
@@ -10,7 +10,7 @@ class CircularContainer extends StatelessWidget {
     this.padding = 0,
     this.backgroundColor = Colors.white,
     this.margin
-  }) : super(key: key);
+  });
 
   final double? width;
   final double? height;

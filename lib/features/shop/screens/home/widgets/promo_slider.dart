@@ -8,7 +8,7 @@ import 'package:cart_bliss/features/shop/controllers/home_controller.dart';
 import 'package:cart_bliss/common/widgets/custom_shapes/containers/circularContainer.dart';
 
 class PromoSlider extends StatelessWidget {
-  const PromoSlider({Key? key, required this.banners}) : super(key: key);
+  const PromoSlider({super.key, required this.banners});
 
   final List<String> banners;
 

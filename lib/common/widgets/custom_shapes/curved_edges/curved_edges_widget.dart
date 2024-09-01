@@ -2,7 +2,7 @@ import 'curved_edges.dart';
 import 'package:flutter/material.dart';
 
 class CustomCurvedEdge extends StatelessWidget {
-  const CustomCurvedEdge({Key? key, required this.child}) : super(key: key);
+  const CustomCurvedEdge({super.key, required this.child});
 
   final Widget child;
 

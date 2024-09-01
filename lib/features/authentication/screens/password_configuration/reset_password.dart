@@ -8,7 +8,7 @@ import 'package:cart_bliss/utils/helpers/helper_functions.dart';
 import 'package:cart_bliss/features/authentication/screens/login/login.dart';
 
 class ResetPassword extends StatelessWidget {
-  const ResetPassword({Key? key}) : super(key: key);
+  const ResetPassword({super.key});
 
   @override
   Widget build(BuildContext context) {
