@@ -1,3 +1,4 @@
+import 'package:cart_bliss/bindings/general_bindings.dart';
 import 'package:cart_bliss/utils/constants/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:cart_bliss/utils/theme/theme.dart';
@@ -12,6 +13,7 @@ class App extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
+      initialBinding: GeneralBindings(),
       home: const Scaffold(
         backgroundColor: TColors.primary,
         body: Center(
